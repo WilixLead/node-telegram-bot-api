@@ -1,3 +1,5 @@
+'use strict';
+
 const Promise = require('bluebird');
 const debug = require('debug')('node-telegram-bot-api');
 const request = require('request-promise');
