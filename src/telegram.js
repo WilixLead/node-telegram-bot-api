@@ -136,14 +136,14 @@ TelegramBot.prototype._request = function (path, options) {
   debug('HTTP request: %j', options);
   return requestPromise(options)
     .then(function (resp) {
-      if (resp[0].statusCode !== 200) {
-        throw new Error(resp[0].statusCode+' '+resp[0].body);
+      if (resp.statusCode !== 200) {
+        throw new Error(resp.statusCode+' '+resp.body);
       }
       var data;
       try {
-        data = JSON.parse(resp[0].body);
+        data = JSON.parse(resp.body);
       } catch (err) {
-        throw new Error('Error parsing Telegram response: %s', resp[0].body);
+        throw new Error('Error parsing Telegram response: %s', resp.body);
       }
       if (data.ok) {
         return data.result;

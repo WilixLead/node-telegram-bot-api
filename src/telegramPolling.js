@@ -82,7 +82,7 @@ class TelegramBotPolling {
       }),
       simple: false,
       resolveWithFullResponse: true,
-      forever: true,
+      forever: true
     };
     debug('polling with options: %j', opts);
 
