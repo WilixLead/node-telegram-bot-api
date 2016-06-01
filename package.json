@@ -1,6 +1,6 @@
 {
   "name": "node-telegram-bot-api",
-  "version": "0.21.1",
+  "version": "0.21.2",
   "description": "Telegram Bot API",
   "main": "./lib/telegram.js",
   "directories": {
@@ -58,12 +58,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WilixLead/node-telegram-bot-api.git"
+    "url": "https://github.com/yagop/node-telegram-bot-api.git"
   },
   "bugs": {
-    "url": "https://github.com/WilixLead/node-telegram-bot-api/issues"
+    "url": "https://github.com/yagop/node-telegram-bot-api/issues"
   },
-  "homepage": "https://github.com/WilixLead/node-telegram-bot-api",
+  "homepage": "https://github.com/yagop/node-telegram-bot-api",
   "contributors": [
     {
       "name": "Dmitry Aloyan",
